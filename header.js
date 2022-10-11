@@ -33,7 +33,7 @@ class MyHeader extends HTMLElement {
                   <a class="nav-link" href="blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#contact-us">Contact</a>
+                <a class="nav-link" href="#top-footer">Contact</a>
               </li>
            
               </ul>

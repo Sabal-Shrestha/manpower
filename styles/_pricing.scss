@@ -12,10 +12,10 @@
     margin: -2rem -2rem 2rem -2rem;
     padding: 2rem 1.5rem;
     background: #f8f8f8;
-    font-size: clamp(1.5rem,1vw,1.6rem);
+    font-size: clamp(1.5rem, 1vw, 1.6rem);
   }
   h4 {
-    font-size: clamp(2rem,2.5vw,3.6rem);
+    font-size: clamp(2rem, 2.5vw, 3.6rem);
     color: $primaryColor;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
@@ -58,7 +58,7 @@
     padding: 1rem 3.5rem;
     border-radius: 4px;
     color: #fff;
-    font-size: clamp(1rem,1.5vw,1.5rem);
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
     font-weight: 400;
     text-decoration: none;
     &:hover {
