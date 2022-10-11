@@ -226,6 +226,9 @@ main section .main-title :last-child {
   background-color: #fff;
 }
 
+#top-footer {
+  margin-top: 4rem;
+}
 #top-footer .info-box {
   color: #444444;
   text-align: center;
