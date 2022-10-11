@@ -1,0 +1,131 @@
+#top-footer {
+  .info-box {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
+    background: #fff;
+  }
+  i {
+    font-size: clamp(1.9rem, 2.5vw, 3.2rem);
+    color: $iconColor;
+    border-radius: 50%;
+    padding: 8px;
+  }
+  h4 {
+    font-size: clamp(1.6rem, 2.5vw, 2rem);
+    font-weight: 700;
+  }
+  p {
+    padding: 0;
+    font-size: clamp(1.1rem, 1.4vw, 1.4rem);
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .form-box {
+    padding: 20px 0 20px 0;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    h4 {
+      color: #444444;
+      font-size: clamp(1.6rem, 2.5vw, 2rem);
+      font-weight: 700;
+      text-align: center;
+    }
+    form {
+      padding: 0.3rem 2rem;
+      .form-group {
+        margin: 0.7rem 0;
+        textarea {
+          resize: none;
+        }
+      }
+      .form-control {
+        font-size: clamp(1.3rem, 1.5vw, 1.8rem);
+        &:focus {
+          box-shadow: 0 0 0 0.25rem #4d1c6640;
+          border-color: $accentColor;
+        }
+      }
+      button[type="submit"] {
+        font-size: clamp(1rem, 1.4vw, 1.4rem);
+        margin-top: 0.4rem;
+        background: $primaryColor;
+        border: 0;
+        padding: 0.7rem 2rem;
+        color: #fff;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+#middle-footer{
+  margin-top: 2rem;
+  padding: 2rem 0 1rem;
+  background-color: #f8f6f4;
+  h4 {
+    color: #444444;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  ul,li{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    font-size: clamp(1.1rem, 1.5vw, 1.5rem);
+  }
+  i{
+    font-size: clamp(1.1rem, 1.5vw, 2rem);
+    margin-right: 0.5rem;
+  }
+  .twitter {
+    color: #1982e4;
+  }
+  .facebook {
+    color: #087bea;
+  }
+  .instagram {
+    color: #ef1717;
+  }
+  .linkedin {
+    color: #0a66c2;
+  }
+}
+footer{
+  padding: 2rem 0;
+  p,a,strong{
+    font-size: clamp(1rem, 1.4vw, 1.4rem);
+    color: #fff;
+    text-align: center;
+  }
+  background: linear-gradient(
+    90deg,
+    rgb(55, 10, 75),
+    rgb(90, 46, 120),
+    rgb(151, 99, 174)
+  );
+  #goToTop {
+    display: none;
+    position: fixed;
+    left: 70px;
+    bottom: 25px;
+    z-index: 996;
+    border: none;
+    background-color: $primaryColor;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+#goToTop i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+}

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <script src="header.js"></script>
+    <my-header></my-header>
+    <section id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-12">
+            <h1>
+              Better Work<br />Experience<br />
+              With Us
+            </h1>
+            <h2>
+              We are hiring, managing employees<br />And contractors
+              <span>for your business.</span>
+            </h2>
+            <div>
+              <a
+                class="btn-get-started"
+                data-bs-toggle="modal"
+                href="#exampleModalToggle"
+                role="button"
+                >Query</a
+              >
+            </div>
+            <div
+              class="modal fade"
+              id="exampleModalToggle"
+              aria-hidden="true"
+              aria-labelledby="exampleModalToggleLabel"
+              tabindex="-1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header form">
+                    <h5 class="modal-title" id="exampleModalToggleLabel">
+                      Submit A Query
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="/action_page.php">
+                      <input
+                        type="text"
+                        class="form-control mt-2"
+                        id="fname"
+                        name="firstname"
+                        placeholder="Your name.."
+                      />
+                      <input
+                        type="email"
+                        class="form-control mt-2"
+                        name="email"
+                        id="email"
+                        placeholder="Your Email*"
+                        required
+                      />
+                      <textarea
+                        class="form-control mt-2"
+                        name="subject"
+                        placeholder="Write a message here.."
+                        style="height: 200px"
+                      ></textarea>
+                      <input
+                        class="btn-get-started scrollto"
+                        type="submit"
+                        value="Submit"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section id="about-us">
+        <div class="container">
+          <div class="main-title">
+            <h2>About Us</h2>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-12 col-lg-8">
+              <p>
+                <strong
+                  >In this present era of global exposure and expansion, there
+                  are certain times when you have no other option than looking
+                  for outsourcing extra manpower for your work. Limitation of
+                  time and resources makes it difficult for companies to manage
+                  massive works single handedly. In such instances, relying on
+                  best manpower recruitment companies is clever choice. “Website
+                  name” is the best in the industry you can go for.</strong
+                >
+              </p>
+              <p>
+                <strong>
+                  “Website name” committed to connect candidates with the best
+                  companies and best position they deserve whether for full time
+                  career opportunity or contact assignment. We help businesses
+                  to assemble a team of very competitive and skilled
+                  professionals to get their job done. We have already lead
+                  various companies from different industries to achieve their
+                  vision and mission by helping to create the kind of
+                  professional environment they strive for. Our company
+                  functions in very highly dynamic and diversified global
+                  markets.
+                </strong>
+              </p>
+            </div>
+            <div class="col-md-12 col-lg-4 d-none d-lg-block">
+              <img
+                width="450"
+                height="450"
+                src="./img/about-us.webp"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <div class="main-title">
+            <h2>OUR SERVICES</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex">
+              <div class="card flex-fill">
+                <img
+                  src="img/agreement.webp"
+                  class="img-fluid mx-auto"
+                  height="60%"
+                  width="60%"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Looking to hire employees overseas?
+                  </h2>
+                  <p class="card-text">
+                    “Website name” provides global hiring solutions for cost
+                    effective and quicker expansion of human resources
+                    internationally without setting up a local entity or
+                    subsidiary. We make international employment hassle free.
+                  </p>
+                  <a href="#" id="myBtn">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex">
+              <div class="card flex-fill">
+                <img
+                  src="img/global-contractor.webp"
+                  class="img-fluid mx-auto"
+                  height="60%"
+                  width="60%"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h2 class="card-title">Work with global contractors fast.</h2>
+                  <p class="card-text">
+                    Need contractors for your small projects or short time
+                    period, “website name” makes that happen in minutes. We hire
+                    contractors on your behalf and automate onboarding,
+                    compliance, invoicing and payments with ease.
+                  </p>
+                  <a href="#" id="myBtn">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex">
+              <div class="card flex-fill">
+                <img
+                  src="img/connect.webp"
+                  class="img-fluid mx-auto"
+                  height="60%"
+                  width="60%"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h2 class="card-title">Project Solution.</h2>
+                  <p class="card-text">
+                    Employees or contractors already hired? We manage and
+                    automate your payroll for you so that you can pay your team
+                    on time no matter where they live.
+                  </p>
+                  <a href="#" id="myBtn">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="industries-we-serve">
+        <div class="container">
+          <div class="main-title">
+            <h2>Industries We Serve</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-3 pt-2">
+              <h3>Information Technology</h3>
+              <img
+                src="img/it.webp"
+                class="img-fluid"
+                height="100%"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 pt-2">
+              <h3>Accounting</h3>
+              <img
+                src="img/accountant.webp"
+                class="img-fluid"
+                height="100%"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 pt-2">
+              <h3>Human Resources</h3>
+              <img
+                src="img/human-resource.webp"
+                class="img-fluid"
+                height="100%"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="col-md-3 pt-2">
+              <h3>Finance</h3>
+              <img
+                src="img/finance.webp"
+                class="img-fluid"
+                height="100%"
+                width="100%"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="why-us">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12 col-lg-4 text-center">
+              <div class="main-title">
+                <h2>Why Us?</h2>
+              </div>
+              <img
+                src="img/why-us.webp "
+                height="400"
+                width="400"
+                class="img-fluid"
+                alt="why us"
+              />
+            </div>
+            <div class="col-md-12 col-lg-8">
+              <p>
+                Looking to hire employees from global pool of skilled
+                professionals to work remotely, for full time or contract
+                assignment without putting burden on your HR or hiring manager
+                on very cost effective way, then you are on the right door step.
+                “Website name” has been lending hands on recruiting global
+                professionals to work remotely on your projects either on full
+                time or contract basis since its incorporation and employers are
+                happier than ever. Our company operates on dedicated resource
+                model, keeping your organizational objectives and requirements
+                in top priority.
+              </p>
+              <p>
+                <strong
+                  >Highlighted below are the reasons to choose our dedicated
+                  resource model for remote employees or contractor recruitment
+                  process:</strong
+                >
+              </p>
+              <ul>
+                <li>Reduction of cost and assurance of quality</li>
+                <li>Reduced time to hire</li>
+                <li>Access to the best talent</li>
+                <li>Finds perfect fit for specialized positions</li>
+                <li>In-depth market knowledge</li>
+                <li>Reach harder to find candidates</li>
+                <li>Provide short term, flexible solutions</li>
+                <li>Additional services</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="how-we-serve">
+        <div class="container">
+          <div class="main-title">
+            <h2>HOW DO WE SERVE</h2>
+            <p>
+              With our recruitment company, process of finding and recruiting
+              full time or contract employees to work remotely is made easy for
+              you. You simply tell us your requirement for vacant position and
+              we will provide you with skilled professional suitable for that
+              position. Our recruitment service involves following process:
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 d-flex">
+              <div class="card flex-fill">
+                <div class="card-body">
+                  <h3 class="card-title">1. Tell us about your requirement:</h3>
+                  <p class="card-text">
+                    Once you contact us for the service, we will discuss on
+                    vacant position to be filled and provide you cost estimate
+                    for the given services. After coming to an agreement on
+                    cost, our expert recruitment team will further contact to
+                    know the specific skills you need, timing of work, working
+                    environment, etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex">
+              <div class="card flex-fill">
+                <div class="card-body">
+                  <h3 class="card-title">2. Options to choose from:</h3>
+                  <p class="card-text">
+                    We provide shortlisted resumes of prospective full time or
+                    contract employees for you as per your requirement from
+                    global pool of skilled professionals to work remotely on
+                    your project. You can choose from our resumes or we choose
+                    for you. “Website name” guarantees project completion from
+                    contract employees.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex">
+              <div class="card flex-fill">
+                <div class="card-body">
+                  <h3 class="card-title">3. Agreement and Service Fee:</h3>
+                  <p class="card-text">
+                    Once the employee or contractor is finalized, then we will
+                    prepare and sign the agreement. The service fee will be
+                    settled after that.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex">
+              <div class="card flex-fill">
+                <div class="card-body">
+                  <h3 class="card-title">4. Connect with employee:</h3>
+                  <p class="card-text">
+                    We will provide orientation to the hired full time employee
+                    or contractor about your company working environment then
+                    connect with you to begin the work process. You can directly
+                    start work with the employee or contractor hassle free, thus
+                    save your time.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faq">
+        <div class="container">
+          <div class="row">
+            <div class="main-title">
+              <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="col-sm-12">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      What services does “website name” provide?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        “Website name” is a recruiting company and provides
+                        businesses with skilled and competent professionals for
+                        full time, interim or contract and project based
+                        employment from global pool to work remotely. Our
+                        services include following:
+                      </p>
+                      <ul>
+                        <li>Hire Employee: To recruit fulltime employees.</li>
+                        <li>
+                          Contract and interim solutions: To hire employees on
+                          contract basis or temporary period.
+                        </li>
+                        <li>
+                          Project solution: To hire employees for project
+                          specific work only.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      How does “website name” hire skilled manpower?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        “Website name” has its own efficient and effective
+                        hiring process whereby we identify the talent needs,
+                        devise a recruitment plan, advertise the position,
+                        review applications, perform interviews, do background
+                        checks and then hire the manpower.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      What happens when a business request “website name”
+                      services?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        When client request services from “website name”, we
+                        provide employees as per their requirement from our
+                        talent pool either for full time or part time
+                        employment. They have option to sort and select resume
+                        from talent pool or we can also do that for them.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      Is there any agreement between employer, employee and
+                      “website name”?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        There are two types of agreement involved, one between
+                        employer and “website name” and other between “website
+                        name” and employee. When client selects the required
+                        workforce, Employer and “website name” makes a written
+                        agreement which specifies working terms, service cost
+                        involved etc. There is another agreement also between
+                        “website name” and employee which specifies their
+                        working hours, period involved, their remuneration etc.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFive"
+                    >
+                      How does employer pay the employed workforce?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Employer does not pay the employee directly, since the
+                        agreement is made between employer and “website name”.
+                        We pay on behalf of employer to the employee on their
+                        local currency in their respective country. This makes
+                        employer’s payment process hassle free.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSix">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSix"
+                    >
+                      What is the difference between employee hired under
+                      “Interim and contract solution” and “project solution”?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseSix"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Under “Interim and contract solution” service scheme
+                        employees are hired when employer wants to fill the
+                        vacancy created due to unavoidable circumstances for
+                        shorter period of time or they want to hire employee for
+                        temporary period before they hire full time employee.
+                        Under “project solution” scheme of employment, employer
+                        hire employees for projects basis only. This could be
+                        for short or longer period of time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <my-footer></my-footer>
+    <script src="footer.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
