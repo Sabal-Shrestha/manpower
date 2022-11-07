@@ -1,6 +1,6 @@
 class MyFooter extends HTMLElement {
-    connectedCallback() {
-      this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
       <section id="top-footer">
       <div class="container">
         <div class="row g-5">
@@ -143,16 +143,15 @@ class MyFooter extends HTMLElement {
         <i class="fas fa-arrow-up"></i>
       </button>
     </footer>
-    <link rel="stylesheet" href="./styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
   `;
-    }
   }
-  customElements.define("my-footer", MyFooter);
-  
+}
+customElements.define("my-footer", MyFooter);
+
 (function (d, w, c) {
   w.ChatraID = "99ijTmoJgpnR3Mvoq";
   var s = d.createElement("script");
@@ -165,12 +164,16 @@ class MyFooter extends HTMLElement {
   s.src = "https://call.chatra.io/chatra.js";
   if (d.head) d.head.appendChild(s);
 })(document, window, "Chatra");
-  
+
 function scrollFunction() {
-  document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ? (mybutton.style.display = "block") : (mybutton.style.display = "none");
+  document.body.scrollTop > 20 || document.documentElement.scrollTop > 20
+    ? (mybutton.style.display = "block")
+    : (mybutton.style.display = "none");
 }
 function topFunction() {
   (document.body.scrollTop = 0), (document.documentElement.scrollTop = 0);
 }
 (mybutton = document.getElementById("goToTop")),
-(window.onscroll = function () {scrollFunction();});
+  (window.onscroll = function () {
+    scrollFunction();
+  });
